@@ -1,0 +1,165 @@
+body {
+    background-color: rgb(47, 17, 212);
+    font-family: 'Lato', sans-serif;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 75%;
+}
+
+
+video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+audio {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1, h2, h3, h4 {
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+#container {
+    background-color: rgb(142, 180, 250);
+    width: 75%;
+    margin: 20px auto;
+}
+
+
+nav{
+    text-align: center;
+}
+
+
+nav ul {
+    padding: 0%;
+    list-style-type: none;
+}
+
+
+nav li {
+    display: inline-block;
+    font-weight: bolder;
+}
+
+
+nav li a {
+    display: block;
+    background-color: blueviolet;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: chartreuse;
+    text-decoration: none;
+    border: 2px solid crimson;
+    border-radius: 30px;
+    margin: 0 10px;
+}
+
+
+nav li a:hover {
+    background-color: darkgoldenrod;
+    color: hotpink;
+    border: 6px solid maroon;
+}
+
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+#test {
+    display: flex;
+}
+
+
+.als {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+
+#lower_area {
+    display: flex;
+}
+
+
+.col {
+    border: 3px solid rgb(255, 0, 140);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+
+footer {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 40px 0;
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+
+main {
+    display: flex;
+}
+section, 
+aside {
+    border: 2px solid #49574B;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.double_page {
+    width: 100%;
+    text-align: left;
+
+}
+section {
+    width: 25%;
+}
+
+aside {
+    width: 75%;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+td, tr {
+    border: 4px solid yellow;
+}
+
+
+.single_page {
+    width: 100%;
+    text-align: left;
+
+}

@@ -1,0 +1,294 @@
+body {
+    background-color: rgb(192, 226, 240);
+    font-family: 'Lato', sans-serif;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+audio {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+h1, h2, h3 {
+    color:#e6da3c;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 2px;
+}
+#container {
+    background-color: rgb(242, 248, 238);
+}
+
+nav {
+    background-color: rgb(23, 100, 100);
+    text-align: center;
+}
+
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+
+nav li {
+    display: block;
+    border-bottom: 2px solid rgb(243, 243, 213); 
+}
+
+
+nav li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(230, 231, 126);
+    color:  rgb(6, 114, 160);
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+
+}
+
+
+nav li a:hover {
+    background-color: rgb(179, 252, 252);
+    color: rgb(187, 70, 70);
+    border-color: rgb(0, 74, 97);
+}
+
+
+main {
+    padding: 10px;
+}
+
+
+.col {
+    padding: 10px;
+}
+
+
+
+header {
+    text-align: center;
+}
+footer {
+    background-color: cornflowerblue;
+    color: darkslategray;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+.button {
+    display: block;
+    width: 100px;
+    height: 25px;
+    line-height: 10px;
+    background-color: rgb(6, 114, 160);
+    color: #e6da3c;
+    text-decoration: #badd20;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(2, 49, 70);
+    border-radius: 0px;
+    line-height: .9;
+}
+
+.button:hover {
+    background-color: #BF3939;
+    border-color: #f7ebef;
+}
+
+
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: larger;
+    color:  rgb(242, 248, 238);
+  }
+
+
+  .col {
+    border: 2px solid rgb(255, 176, 215);
+    border-radius: 0px;
+    margin: 10px;
+}
+
+
+.members {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+tr, td {
+    border: 3px solid rgb(6, 114, 160);
+
+}
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+    nav li a {
+        width: 175px;
+        margin: 0 5px;
+        border-radius: 10px;
+        border: 2px solid #e6da3c;
+    }
+
+p {
+    font-size: 1.5em;
+}
+    
+    .centered {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: larger;
+        color:  rgb(242, 248, 238);
+      }
+    
+
+      ul{
+        font-size: 1.3em;
+      }
+
+
+      section, aside {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid #e6da3c;
+        border-radius: 10px;
+      }
+
+      main {
+        display: flex;
+      }
+
+      section {
+        width: 40%;
+      }
+
+      aside {
+        width: 60%;
+      }
+
+      .single_page {
+        width: 100%;
+    }
+
+      }
+
+      @media (min-width: 1024px) {
+        #container {
+            width: 65%;
+            margin: 20px auto;
+        }
+
+        nav li a {
+            background-color: rgb(230, 231, 126);;
+            border: 10px;
+            width: 200px;
+            height: 30px;
+            line-height: 30px;
+            padding: px 0;
+            margin: 0 10px;
+        }
+
+        #lower_area {
+            display: flex;
+        }
+        
+        
+        .col {
+            border: 3px solid rgb(241, 149, 200);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 0px;
+        }
+        
+        
+        footer {
+            background-color: rgb(38, 118, 165);
+            text-align: center;
+            padding: 40px 0;
+            color: rgb(230, 240, 175);
+            font-weight: bold;
+        }
+        
+        
+        main {
+            display: flex;
+        }
+        section, 
+        aside {
+            border: 2px solid #1986b1;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .double_page {
+            width: 100%;
+            text-align: left;
+        
+        }
+        section {
+            width: 25%;
+        }
+        
+        aside {
+            width: 75%;
+        }
+        
+        
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        
+        
+        td, tr {
+            border: 4px solid yellow;
+        }
+        
+        
+        .single_page {
+            width: 100%;
+            text-align: left;
+        
+        }
+
+        p {
+            font-size: 1.4em;
+        }
+      }
